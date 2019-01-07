@@ -30,6 +30,7 @@ public class AutowireBeanFactory extends AbstractBeanFacory {
 
     private void applyPropertyValues(Object bean, BeanDefinition beanDefinition) throws Exception{
         for(PropertyValue pv : beanDefinition.getPropertyValues().getPropertyValues()){
+            //通过反射获得类的所有申明的字段，不包括父类的
             Field declaredField = bean.getClass().getDeclaredField(pv.getName());
             declaredField.setAccessible(true);
             declaredField.set(bean, pv.getValue());
