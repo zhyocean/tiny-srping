@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/tiny-spring-step1/tiny-spring-step1.iml" filepath="$PROJECT_DIR$/tiny-spring-step1/tiny-spring-step1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tiny-spring-step2/tiny-spring-step2.iml" filepath="$PROJECT_DIR$/tiny-spring-step2/tiny-spring-step2.iml" />
       <module fileurl="file://$PROJECT_DIR$/tiny-srping.iml" filepath="$PROJECT_DIR$/tiny-srping.iml" />
     </modules>
   </component>
