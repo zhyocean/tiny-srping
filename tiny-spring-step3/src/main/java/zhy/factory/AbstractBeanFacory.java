@@ -26,5 +26,10 @@ public abstract class AbstractBeanFacory implements BeanFactory{
         beanDefinitionMap.put(beanName, beanDefinition);
     }
 
+    /**
+     * 初始化Bean
+     * 通过beanDefinition中的getBeanClass反射创建一个Bean
+     * 通过beanDefinition中的propertyValues为该Bean进行属性注入
+     */
     protected abstract Object doCreateBean(BeanDefinition beanDefinition);
 }

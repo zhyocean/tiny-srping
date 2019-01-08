@@ -9,12 +9,14 @@
         <module name="tiny-spring-step1" />
         <module name="tiny-spring-step2" />
         <module name="tiny-spring-step3" />
+        <module name="tiny-spring-step4" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="tiny-spring-step1" target="1.5" />
       <module name="tiny-spring-step2" target="1.6" />
-      <module name="tiny-spring-step3" target="1.5" />
+      <module name="tiny-spring-step3" target="1.6" />
+      <module name="tiny-spring-step4" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>
