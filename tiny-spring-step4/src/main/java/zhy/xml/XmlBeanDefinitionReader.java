@@ -26,6 +26,7 @@ public class XmlBeanDefinitionReader extends AbstractBeanDefinitionReader {
 
     @Override
     public void loadBeanDefinitions(String location) throws Exception {
+        //获得xml文件的输入流
         InputStream inputStream = getResourceLoader().getResource(location).getInputStream();
         doLoadBeanDefinition(inputStream);
     }
