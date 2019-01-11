@@ -9,8 +9,8 @@ public class OutputService {
 
     private String say;
 
-    public void output(){
-        System.out.println(say);
+    public void output(String text){
+        System.out.println(text);
     }
 
     public void setSay(String say) {

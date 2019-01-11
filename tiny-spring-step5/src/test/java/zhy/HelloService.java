@@ -12,7 +12,7 @@ public class HelloService {
     private OutputService outputService;
 
     public void helloWorld(){
-        outputService.output();
+        outputService.output(text);
     }
 
     public void setText(String text){
