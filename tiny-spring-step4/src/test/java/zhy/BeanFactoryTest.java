@@ -13,7 +13,7 @@ import java.util.Map;
  * @Date: 2019/1/8 14:13
  * Describe:
  */
-public class BeanTest {
+public class BeanFactoryTest {
 
     @Test
     public void test() throws Exception {
