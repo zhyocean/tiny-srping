@@ -9,6 +9,7 @@
         <property name="outputService" ref="outputService"></property>
     </bean>
 
+
     <bean name="outputService" class="zhy.OutputService">
         <property name="say" value="i say"></property>
     </bean>
