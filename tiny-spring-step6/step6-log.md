@@ -1,0 +1,6 @@
+# tiny-spring
+
+### 1.tiny-spring-step6
+定义ApplicationContext接口继承BeanFactory，拥有BeanFactory的一切
+
+ApplicationContext构造器参数传入一个Spring配置文件，在该构造器中创建一个BeanFactory并初始化从配置文件中读取所有Bean信息

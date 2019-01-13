@@ -3,6 +3,7 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="GBK">
     <file url="file://$PROJECT_DIR$/tiny-spring-step4/src/test/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tiny-spring-step5/src/test/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tiny-spring-step6/src/test/resources/tiny-ioc.xml" charset="UTF-8" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>
